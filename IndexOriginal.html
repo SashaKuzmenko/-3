@@ -1,0 +1,51 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Название моего опроса</title>>
+  <script src ="IndexOriginal.js"></script>
+  <link href ="IndexOriginal.css" rel ="stylesheet">
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+          <th><p><b>Logo</p></th></b>
+            <th><nav><a href="1.html">О компании</a>  <a href="2.html">Вход</a></nav></th>
+    </tr>
+    <tr>
+        <td> <p> <button>Главная</button></p>> 
+      <p> <button>Мои опросы</button></p>>  
+      <p> <button>Шаблоны опросов</button></p>>  
+      <p> <button>Пользователи</button></p>>   
+      <form action="handler.php">
+      <form name="test" method="post" action="input1.php"></td>
+        
+        <td>
+          <p><b>Название моего опроса</p></b>
+          <p><b>Вопрос с несколькими ответами </b></p>
+    <p><input type="checkbox" name="answer" value="a1">Ответ 1<Br>
+  <input type="checkbox" name="answer" value="a2">Ответ 2<Br>
+  <input type="checkbox" name="answer" value="a3">Ответ 3</p>
+      
+  <p><b>Вопрос с одним верным ответом </b></p>
+    <p><input type="radio" name="answer" value="a1">Ответ 1<Br>
+    <input type="radio" name="answer" value="a2">Ответ 2<Br>
+    <input type="radio" name="answer" value="a3">Ответ 3</p>
+    
+    <p><b>Вопрос с текстовым ответом:</b><br>
+      <input type="text" size="40">
+      
+      <p><strong>Вопрос с ответом в файле</strong></p>
+   <p><input type="file" name="docx" accept="docx/*">
+   <input type="submit" value="Отправить"></p>
+   
+   <p><b>Вопрос шкала </b></p>
+   <input type="range" id="start" name="volume"
+         min="0" max="11">
+         <p><input type="submit" value="Отправить"></td>
+         </tr>
+    
+   </form>
+  
+</body>
+</html>

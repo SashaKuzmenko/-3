@@ -1,0 +1,10 @@
+table {
+    width: 300px;
+    margin: auto
+}
+td {
+    text-align:  center;
+}
+th {
+    text-align:  right;
+}
